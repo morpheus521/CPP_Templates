@@ -11,8 +11,15 @@ using namespace std;
 #define dbg(n) cout<<#n<<' '<<n<<endl;
 #define dbg_v(v) cout<<#v<<":";for(auto x:v) cout<<" "<<x; cout<<endl;
 int power(ll x,ll y){ll res = 1;while(y>0){if(y&1)res = (res*x)%mod;y=y>>1;x=(x*x)%mod;}return res;}
+void solve(){
+
+}
 int main(){ 
 	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);	
+	cin.tie(NULL);
+	int T;
+	cin>>T;
+	while(T--)
+		solve();
 }
 
