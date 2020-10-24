@@ -23,8 +23,15 @@ vector<int>prefix(string s) {
     }
     return pre;
 }
+void solve(){
+
+}
 int main(){ 
 	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);	
+	cin.tie(NULL);
+	int T;
+	cin>>T;
+	while(T--)
+		solve();
 }
 
