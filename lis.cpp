@@ -37,11 +37,17 @@ int lis(vector<int>& v)
     } 
   
     return len; 
-} 
+}
+void solve(){
+
+}
 int main(){ 
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);	
-		
+	int T;
+	cin>>T;
+	while(T--)
+		solve();
 }
 
 
